@@ -1,0 +1,2 @@
+<!-- Placeholder for splash screen image -->
+<!-- Format: PNG, Dimensions: Recommend 1080x1920 for Android, 1125x2436 for iOS -->

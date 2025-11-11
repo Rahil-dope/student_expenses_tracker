@@ -1,0 +1,2 @@
+<!-- Placeholder for app icon (512x512) - Replace with actual branding -->
+<!-- Format: PNG, Dimensions: 512x512 or 1024x1024 -->
