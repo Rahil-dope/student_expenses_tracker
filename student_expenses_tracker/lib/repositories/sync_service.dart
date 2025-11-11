@@ -6,7 +6,7 @@ import '../database/database.dart';
 /// Handles upload, download, conflict resolution (timestamp-based), and soft deletes.
 class SyncService {
   final AppDatabase db;
-  final FirebaseFirestore firestore;
+  final dynamic firestore;
 
   SyncService({required this.db, required this.firestore});
 

@@ -5,7 +5,10 @@ part 'database.g.dart'; // Generated file
 
 @DriftDatabase(tables: [Categories, Expenses, Budgets])
 class AppDatabase extends _$AppDatabase {
-  AppDatabase() : super(_openConnection());
+  /// Creates the AppDatabase. If [executor] is provided it will be used
+  /// as the underlying QueryExecutor (useful for tests). Otherwise a
+  /// platform-specific persistent database is opened.
+  AppDatabase({QueryExecutor? executor}) : super(executor ?? _openConnection());
 
   @override
   int get schemaVersion => 1;
